@@ -1,0 +1,87 @@
+﻿<html lang="gre">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="w3.css">  </head>
+
+<head>
+    <title>Εισαγωγή εργαζομένου</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="eHotels.css">
+    <link rel="stylesheet" type="text/css" href="checkbox.css">
+    <body>
+        <div class="wrapper">
+            <!---navigation-->
+            <nav class="main-nav">
+                <ul>
+                    <li>
+                        <a id="eHotelsClass" href=""> eHotels </a>
+                    </li>
+                    <li>
+                        <a href="">Who are we? </a>
+                    </li>
+                    <li>
+                        <a href="">Sign in </a>
+                    </li>
+                    <li>
+                        <a href="">Continue as a guest </a>
+                    </li>
+                    <li>
+                        <a href="">Support</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--  Top container-->
+            <div class="w3-container w3-blue">
+                <h2>Εισάγεται τα στοιχεία της ξενοδοχειακής μονάδας:</h2>
+            </div>
+
+
+            <form action="insert_hotel_group.php" method="post" class="w3-container">
+                <br />
+                Street: <input type="text" name="street" class="w3-input" required><br />
+                Number: <input type="number" name="number" class="w3-input" required><br />
+                Postal_Code: <input type="text" name="postal_code" class="w3-input" required><br />
+                City: <input type="text" name="city" class="w3-input" required><br />
+                Email_address: <input type="text" name="email_address" class="w3-input" required><br />
+                Phone_number: <input type="tel" name="phone_number" class="w3-input" required><br />
+                Number_of_hotels:<input type="number" name="number_of_hotels" class="w3-input" required><br />
+                <input type="submit"><br><br>
+                <input type="reset"> <br>
+            </form>
+
+
+            <img src="City_Landscape_Background.jpg" alt="Background" style="width:1300px;height:400px;">
+
+    </body>
+
+    <br />
+    <br />
+    <br />
+    </section>
+    <!--  Boxes section -->
+    <section class="boxes">
+        <div class="box">
+            <h3>why to choose us?</h3>
+        </div>
+        <div class="box">
+            <h3>in over 1000 cities in the world!</h3>
+        </div>
+        <div class="box">
+            <h3>Continious communication with our hotels</h3>
+        </div>
+    </section>
+    <!--  end of boxes-->
+    <!--  info section-->
+    <section class="info">
+        <div>
+            <p>
+                This is just info
+            </p>
+        </div>
+    </section>
+    <!--  end of info-->
+    </div>
+    <!--  Wrapper ends-->
+    </body>
+</html>
+

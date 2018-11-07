@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html style="background-image:url(background.jpg);">
+
+<head>
+
+	<title>Insert Customer</title>
+
+	<link type="text/css" rel="stylesheet" href="stylesheet_sympl.css"/>
+	<link rel="icon" href="favicon.png"/>
+
+</head>
+
+<body>
+
+	<div style="margin:auto;">
+
+		<h1 style="text-align:center;color:#77419b;font-family:Lucida Handwriting;color:darkred;"><strong>Insert a Customer</strong></h1>
+	
+	</div>
+
+	<form action="Customer-Insert.php">
+	
+	<input type="text" class="inputs" required="required" placeholder="First Name" name="FirstName">
+	<br>
+	
+	<input type="text" class="inputs" required="required" placeholder="Last Name" name="LastName">
+	<br>
+	
+	<input type="number" min="0" class="inputs" required="required" placeholder="IRS Number" name="IRS_Num">
+	<br>
+	
+	<input type="number" min="0" class="inputs" required="required" placeholder="SSN" name="SSN">
+	<br>
+		
+	<input type="number" min="0" class="inputs" required="required" placeholder="Driver License" name="Driver_License">
+	<br>
+	<select name="FirstRegistrationCity">
+	<option value="ATHENS">Athens</option>
+	<option value="THESSALONIKI">Thessaloniki</option>
+	<option value="PATRA">Patra</option>
+	<option value="HERAKLION">Heraklion</option>
+	<option value="RHODES">Rhodes</option>
+	</select>
+	<br>
+	<br>
+	<input type="text" class="inputs" required="required" placeholder="City" name="City">
+	<br>
+
+	<input type="text" class="inputs" required="required" placeholder="Street Name" name="Street">
+	<br>
+
+	<input type="number" min="0" class="inputs" required="required" placeholder="Street Number" name="StreetNum">
+	<br>
+	
+	<input type="number" min="0" class="inputs" required="required" placeholder="Postal Code" name="PostalCode">
+	<br>
+
+	<input type="submit" value="Submit">
+	</form>
+
+	<p style="text-align:center;font-size:90px"><strong> </strong></p>
+	<div style="margin:auto;">
+		<h2 style="text-align:center;"><a href="Insert.html"><img src="Back.png" alt="Back" width="50px" height="50px"></a></h2>	
+	</div>
+
+</body>
+
+</html>
