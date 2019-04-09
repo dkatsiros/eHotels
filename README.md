@@ -7,7 +7,7 @@ This project was started from a Databases assignment for NTUA Course "Databases"
 
 
 <h3> :computer: Technologies used </h3>
-The application was developed in html for the frontend side and with php for the backend side.
+The application was developed in <i>html</i> for the frontend side and with php for the backend side.
 In addition CSS was used for ensuring a user friendly environment
 
 
